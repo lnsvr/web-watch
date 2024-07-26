@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: row;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding:  40px 150px;
+    color: white;
+}
+.logo{
+    display: flex;
+    margin: 10px;
+    font-size: 30px;
+}
+.btnGetStarted{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    width: 90px;
+    height: 40px;
+}
+.textBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row ;
+    width: 100%;
+    height: 99vh; 
+    padding: 0 100px;
+}
+.textContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+   
+    
+}
+.text1{
+    font-size: 20px;
+    color: gray;
+}
+.text2{
+    font-size: 50px;
+    color: black;
+}
+.text3{
+    font-size: 10px;
+    color: grey;
+}
+    .btn{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0;
+    }
+    .btnBlack{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 10px;
+        width: 110px;
+        height: 30px;
+        color: #fff;
+        background-color: black;
+        border: none;
+        border-radius: 2px;
+        font-size: 12px;
+    }
+    .btnWhite{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 10px;
+        width: 110px;
+        height: 30px;
+        color: black;
+        background-color: white;
+        border: none;
+        border-radius: 2px;
+        font-size: 12px; 
+    }
